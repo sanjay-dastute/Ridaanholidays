@@ -36,11 +36,12 @@ const Home: React.FC = () => {
         ))}
 
         <div className="flex flex-col max-w-[960px] px-6 text-center z-10 relative">
-          <h1 className="text-primary text-4xl sm:text-5xl md:text-6xl lg:text-8xl font-brand leading-tight tracking-tight drop-shadow-2xl mb-4 sm:mb-6">
+          <h1 className="text-white text-4xl sm:text-5xl md:text-6xl lg:text-8xl font-brand leading-tight tracking-tight drop-shadow-2xl mb-4 sm:mb-6">
             RIDAAN HOLIDAYS
           </h1>
           <h2 className="text-white text-base sm:text-lg md:text-xl lg:text-2xl font-medium leading-normal max-w-2xl mx-auto drop-shadow-md opacity-95 font-display px-2">
-            Visitor visa assistance for destinations worldwide - Your gateway to global visas
+            Worldwide Visitor Visa Assistance
+            <br></br>Simple, reliable support for tourist visas across the globe.
           </h2>
         </div>
       </div>
@@ -53,8 +54,9 @@ const Home: React.FC = () => {
             <div className="w-16 sm:w-24 h-1.5 bg-primary mx-auto mb-6 sm:mb-10"></div>
             <h3 className="text-primary text-lg sm:text-xl md:text-2xl font-bold mb-4 sm:mb-6 uppercase tracking-tight font-display">Worldwide Visitor Visa Services</h3>
             <p className="text-slate-600 max-w-4xl mx-auto text-sm sm:text-base md:text-lg leading-relaxed font-medium font-display px-2">
-              Travel the world with confidence. At Ridaan Holidays, we specialize exclusively in visitor visas, helping travelers secure hassle-free visas for destinations across the globe. We assist with visitor visas for USA, UK, Europe (Schengen), Canada, Australia, UAE, Singapore, Thailand, and many more countries worldwide.
-            </p>
+              Dreaming of travelling abroad? 🌍 <br></br> At Ridaan Holidays, we specialize exclusively in visitor visas.
+              We make visitor visas simple and stress-free.
+              From USA and UK to Europe (Schengen), Canada, Australia, UAE, Singapore, Thailand, and beyond — we’ve got you covered.           </p>
           </div>
         </div>
       </div>
