@@ -3,13 +3,20 @@ import { Link } from 'react-router-dom';
 
 const HERO_IMAGES = [
   "/images/1094079.jpg", // High-res landscape
-  "/images/Paris 2.jpg", // Paris, France
+  "/images/Canada.jpg", // Canada
+  "/images/banff.png", // Banff National Park, Canada
+  "/images/zurich.webp", // Paris, France
+  "/images/Paris.jpg", // Paris, France
   "/images/Australia 1.jpg", // Australia
   "/images/Singapore.jpg", // Singapore
   "/images/Thailand.jpg", // Thailand
-  "/images/UAE 1.webp", // United Arab Emirates
-  "/images/Canada.jpg", // Canada
+  "/images/scottish-highlands.png", // Scottish Highlands, UK
+  "/images/santorini-blue-domes.jpeg", // Santorini, Greece
+  "/images/UAE.jpg", // United Arab Emirates
+  "/images/stonehenge.png", // Stonehenge, UK
+
 ];
+
 
 const Home: React.FC = () => {
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
