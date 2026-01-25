@@ -185,7 +185,8 @@ const Home: React.FC = () => {
           <div className="w-24 h-1.5 bg-primary mx-auto mb-12"></div>
           <h2 className="text-4xl md:text-6xl font-brand mb-10 text-slate-900">Ready to travel the world?</h2>
           <p className="text-slate-600 mb-16 max-w-2xl mx-auto text-xl leading-relaxed font-medium font-display">
-            Let Ridaan Holidays handle the paperwork while you plan your itinerary. We plan your appointment according to your travel dates and guide you throughout the process for a stress-free experience.
+            At Ridaan Holidays, We handle the complete paperwork and prepare your file.
+            We plan your appointment according to your travel dates and will provide hands on one to one support for the entire process.
           </p>
           <Link to="/contact">
             <button className="inline-flex items-center justify-center h-20 px-16 bg-primary text-white font-black text-xl uppercase tracking-widest hover:bg-primary-hover transition-all shadow-2xl hover:scale-105 rounded-lg">
