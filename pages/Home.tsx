@@ -2,10 +2,13 @@ import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 
 const HERO_IMAGES = [
-  "/images/hero-eiffel-tower.png", // Paris, France - Golden hour panoramic
-  "/images/hero-statue-liberty.png", // NYC, USA - Blue hour skyline
-  "/images/banff.png", // Banff National Park, Canada - Mountain landscape
-  "/images/great-barrier-reef.png", // Great Barrier Reef, Australia - Aerial tropical
+  "/images/1094079.jpg", // High-res landscape
+  "/images/Paris 2.jpg", // Paris, France
+  "/images/Australia 1.jpg", // Australia
+  "/images/Singapore.jpg", // Singapore
+  "/images/Thailand.jpg", // Thailand
+  "/images/UAE 1.webp", // United Arab Emirates
+  "/images/Canada.jpg", // Canada
 ];
 
 const Home: React.FC = () => {
