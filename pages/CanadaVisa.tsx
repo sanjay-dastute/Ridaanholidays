@@ -74,10 +74,6 @@ const CanadaVisa: React.FC = () => {
                   <div className="bg-primary/10 p-2.5 rounded-xl mt-1">
                     <span className="material-symbols-outlined text-primary text-2xl font-bold block">verified_user</span>
                   </div>
-                  <div>
-                    <h3 className="text-xl font-bold text-slate-900">Clear guidance & strategy</h3>
-                    <p className="text-slate-500 mt-2 text-base leading-relaxed">Receive a personalized checklist of documents and expert advice on how to present your travel history and finances.</p>
-                  </div>
                 </li>
               </ul>
             </div>

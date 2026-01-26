@@ -64,7 +64,7 @@ const Home: React.FC = () => {
             <div className="w-16 sm:w-24 h-1.5 bg-primary mx-auto mb-6 sm:mb-10"></div>
             <h3 className="text-primary text-lg sm:text-xl md:text-2xl font-bold mb-4 sm:mb-6 uppercase tracking-tight font-display">Worldwide Visitor Visa Services</h3>
             <p className="text-slate-600 max-w-4xl mx-auto text-sm sm:text-base md:text-lg leading-relaxed font-medium font-display px-2">
-              Dreaming of travelling abroad? 🌍 <br></br> At Ridaan Holidays, we specialize exclusively in visitor visas.
+              Dreaming of travelling abroad? 🌍 <br></br> We specialize exclusively in visitor visas.
               We make visitor visas simple and stress-free.
               From USA and UK to Europe (Schengen), Canada, Australia, UAE, Singapore, Thailand, and beyond — we’ve got you covered.           </p>
           </div>
@@ -78,7 +78,8 @@ const Home: React.FC = () => {
             <h2 className="text-slate-900 text-4xl md:text-5xl font-brand leading-tight">Visitor Visas We Offer Worldwide</h2>
             <div className="w-24 h-1.5 bg-primary mt-6 mb-10 mx-auto md:mx-0"></div>
             <p className="text-slate-700 text-xl leading-relaxed font-display">
-              Expert visa assistance tailored to your travel dates. Transparent pricing and dedicated support for every step.
+              We handle complete paperwork and prepare your file.
+              We plan your appointment according to your travel dates and will provide hands-on one to one support for the entire process
             </p>
           </div>
 
@@ -87,7 +88,6 @@ const Home: React.FC = () => {
             <div className="group flex flex-col bg-white rounded-xl overflow-hidden shadow-md hover:shadow-2xl transition-all hover:-translate-y-2 border border-slate-100">
               <div className="w-full aspect-[4/3] bg-center bg-no-repeat bg-cover relative" style={{ backgroundImage: 'url("https://lh3.googleusercontent.com/aida-public/AB6AXuBpMZGS0shuc9tIf2g5DAuUenZVOvjGYlSDyEG9tuNDdF77_swRF72sTppG_uBPVH2PRDuNiIhPG9fE9zwg0jON4N5iGEhrU-8G1k8-OdV81-s-WXMDnPM6vfbYuxxllJ7bxi0aovvYBQmt0F6iFF-cVKHHSnPWRX6Rx8_g1iiYW2tl7DFw24m3OB6YKw7kIUtvK9x1Z3dS9KJg-Ut0lWzFIaY97ndmgPCRcc7hYkzeNLM3WOgWW0Ck6j_1-LhgekY6eiUnD-cSX_2g")' }}>
                 <div className="absolute top-3 right-3">
-                  <span className="bg-primary text-white px-3 py-1 text-[11px] font-black uppercase tracking-tighter rounded-full shadow-lg">POPULAR</span>
                 </div>
               </div>
               <div className="p-6 flex flex-col flex-1">
@@ -112,7 +112,7 @@ const Home: React.FC = () => {
                   <h3 className="text-slate-900 text-xl font-bold font-display">Schengen Area</h3>
                   <span className="text-primary font-black text-lg">£169</span>
                 </div>
-                <p className="text-slate-500 text-sm mb-6 font-medium leading-relaxed font-display">Standard Visitor Visa assistance for 27 European countries.</p>
+                <p className="text-slate-500 text-sm mb-6 font-medium leading-relaxed font-display">Visitor visa appointments in 1 week with full application.</p>
                 <Link to="/services/schengen" className="mt-auto block text-center w-full py-3 border-2 border-primary text-primary text-xs font-black uppercase tracking-widest hover:bg-primary hover:text-white transition-all rounded">View Details</Link>
               </div>
             </div>
