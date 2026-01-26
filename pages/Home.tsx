@@ -18,21 +18,38 @@ const HERO_IMAGES = [
 ];
 
 
+const HERO_CONTENT = [
+  {
+    title: "Worldwide Visitor Visa Assistance",
+    desc: "Simple, reliable support for tourist visas across the globe."
+  },
+  {
+    title: "We specialize exclusively in visitor visas",
+    desc: "From USA and UK to Europe (Schengen), Canada, Australia, UAE, Singapore, Thailand, and beyond — we’ve got you covered."
+  },
+  {
+    title: "Complete visa file preparation & support",
+    desc: "We plan your appointment according to your travel dates and will provide hands-on one to one support for the entire process."
+  }
+];
+
 const Home: React.FC = () => {
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
 
   useEffect(() => {
     const interval = setInterval(() => {
       setCurrentImageIndex((prevIndex) => (prevIndex + 1) % HERO_IMAGES.length);
-    }, 4000); // 4 seconds interval
+    }, 6000);
 
     return () => clearInterval(interval);
   }, []);
 
+  const currentContent = HERO_CONTENT[currentImageIndex % HERO_CONTENT.length];
+
   return (
-    <div className="flex flex-col min-h-screen">
+    <div className="w-full">
       {/* Hero Section */}
-      <div className="relative w-full h-[400px] sm:h-[500px] md:h-[600px] flex items-center justify-center overflow-hidden bg-black">
+      <div className="relative h-[400px] sm:h-[500px] md:h-[600px] w-full overflow-hidden flex items-center justify-center">
         {/* Background Slideshow */}
         {HERO_IMAGES.map((img, index) => (
           <div
@@ -45,14 +62,17 @@ const Home: React.FC = () => {
           />
         ))}
 
-        <div className="flex flex-col max-w-[960px] px-6 text-center z-10 relative">
-          <h1 className="text-white text-4xl sm:text-5xl md:text-6xl lg:text-8xl font-brand leading-tight tracking-tight drop-shadow-2xl mb-4 sm:mb-6">
-            RIDAAN HOLIDAYS
-          </h1>
-          <h2 className="text-white text-base sm:text-lg md:text-xl lg:text-2xl font-medium leading-normal max-w-2xl mx-auto drop-shadow-md opacity-95 font-display px-2">
-            Worldwide Visitor Visa Assistance
-            <br></br>Simple, reliable support for tourist visas across the globe.
-          </h2>
+        <div className="flex flex-col max-w-[1200px] px-6 text-center z-10 relative">
+
+          <div className="min-h-[160px] flex flex-col justify-center items-center transition-all duration-500">
+            <h2 key={`title-${currentImageIndex}`}
+              className="text-white text-xl sm:text-2xl md:text-3xl lg:text-5xl font-bold uppercase tracking-wide leading-tight max-w-4xl mx-auto drop-shadow-2xl font-promo px-4 mb-3 animate-fade-in-up">
+              {currentContent.title}
+            </h2>
+            <p key={`desc-${currentImageIndex}`} className="text-slate-50 text-sm sm:text-base md:text-lg font-medium leading-relaxed max-w-3xl mx-auto drop-shadow-lg font-display px-4 animate-fade-in-up animation-delay-200">
+              {currentContent.desc}
+            </p>
+          </div>
         </div>
       </div>
 
@@ -104,7 +124,6 @@ const Home: React.FC = () => {
             <div className="group flex flex-col bg-white rounded-xl overflow-hidden shadow-md hover:shadow-2xl transition-all hover:-translate-y-2 border border-slate-100">
               <div className="w-full aspect-[4/3] bg-center bg-no-repeat bg-cover relative" style={{ backgroundImage: 'url("/images/Eiffel Tower.jpeg")' }}>
                 <div className="absolute top-3 right-3">
-                  <span className="bg-primary text-white px-3 py-1 text-[11px] font-black uppercase tracking-tighter rounded-full shadow-lg">EUROPE</span>
                 </div>
               </div>
               <div className="p-6 flex flex-col flex-1">
@@ -121,7 +140,6 @@ const Home: React.FC = () => {
             <div className="group flex flex-col bg-white rounded-xl overflow-hidden shadow-md hover:shadow-2xl transition-all hover:-translate-y-2 border border-slate-100">
               <div className="w-full aspect-[4/3] bg-center bg-no-repeat bg-cover relative" style={{ backgroundImage: 'url("https://images.unsplash.com/photo-1513635269975-59663e0ac1ad?auto=format&fit=crop&q=80&w=1000")' }}>
                 <div className="absolute top-3 right-3">
-                  <span className="bg-primary text-white px-3 py-1 text-[11px] font-black uppercase tracking-tighter rounded-full shadow-lg">TRUSTED</span>
                 </div>
               </div>
               <div className="p-6 flex flex-col flex-1">
@@ -138,7 +156,6 @@ const Home: React.FC = () => {
             <div className="group flex flex-col bg-white rounded-xl overflow-hidden shadow-md hover:shadow-2xl transition-all hover:-translate-y-2 border border-slate-100">
               <div className="w-full aspect-[4/3] bg-center bg-no-repeat bg-cover relative" style={{ backgroundImage: 'url("/images/statue-of-liberty.jpeg")' }}>
                 <div className="absolute top-3 right-3">
-                  <span className="bg-primary text-white px-3 py-1 text-[11px] font-black uppercase tracking-tighter rounded-full shadow-lg">B1/B2</span>
                 </div>
               </div>
               <div className="p-6 flex flex-col flex-1">
@@ -155,7 +172,6 @@ const Home: React.FC = () => {
             <div className="group flex flex-col bg-white rounded-xl overflow-hidden shadow-md hover:shadow-2xl transition-all hover:-translate-y-2 border border-slate-100">
               <div className="w-full aspect-[4/3] bg-center bg-no-repeat bg-cover relative" style={{ backgroundImage: 'url("https://lh3.googleusercontent.com/aida-public/AB6AXuCEfbUZxd8NdvvR6UkVXLr3Wp-OyS_XpOgdPt4rSjxxKdm08wn-y4wHed3MPrCKqfuEO2U-Zg3BqjqTVgYmjcIcfQ6P_x14hRr1lT0EWKHJqJhmLZ9ntZKRDe9BA7Aspt_mVr4Qf7HTJ16JVL_m_7p1_3uojKtGZq4U_eOrkM2RHETs3QH7VaTBetpr4RF5MxFJvYeFbtimegQ6SPsHHNVjSCZ7hVWptPEg9hXk3FDuERGIOrZ2-f42SzyUMC98VuaTJPiMQljjWjvU")' }}>
                 <div className="absolute top-3 right-3">
-                  <span className="bg-primary text-white px-3 py-1 text-[11px] font-black uppercase tracking-tighter rounded-full shadow-lg">E-VISA</span>
                 </div>
               </div>
               <div className="p-6 flex flex-col flex-1">
@@ -172,7 +188,6 @@ const Home: React.FC = () => {
             <div className="group flex flex-col bg-white rounded-xl overflow-hidden shadow-md hover:shadow-2xl transition-all hover:-translate-y-2 border border-slate-100">
               <div className="w-full aspect-[4/3] bg-center bg-no-repeat bg-cover relative" style={{ backgroundImage: 'url("/images/hobbiton.png")' }}>
                 <div className="absolute top-3 right-3">
-                  <span className="bg-primary text-white px-3 py-1 text-[11px] font-black uppercase tracking-tighter rounded-full shadow-lg">E-VISA</span>
                 </div>
               </div>
               <div className="p-6 flex flex-col flex-1">

@@ -30,7 +30,8 @@ const USAVisa: React.FC = () => {
                 <span className="material-symbols-outlined text-xs sm:text-sm">public</span> North America
               </div>
               <h1 className="font-brand text-3xl sm:text-4xl md:text-5xl lg:text-7xl mb-2 sm:mb-4 text-white">USA B1/B2 Visitor Visa</h1>
-              <p className="text-sm sm:text-base md:text-lg lg:text-xl text-slate-200 font-medium max-w-xl hidden sm:block">From the Big Apple to Hollywood, get comprehensive support for your American dream journey.</p>
+              <p className="text-sm sm:text-base md:text-lg lg:text-xl text-slate-200 font-medium max-w-xl hidden sm:block">Plan Your Trip to the USA
+                Skip the paperwork!  No documents required, face to face interview only, Fully prepared by our team.</p>
             </div>
             <div className="bg-white text-slate-900 px-4 sm:px-6 md:px-8 py-3 sm:py-4 md:py-6 rounded-xl sm:rounded-2xl shadow-[0_20px_50px_rgba(228,30,38,0.3)] w-full sm:w-auto sm:min-w-[200px] md:min-w-[240px] border-b-4 border-primary">
               <p className="text-[10px] sm:text-xs text-slate-400 font-bold uppercase tracking-widest mb-1">Total Package</p>

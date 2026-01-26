@@ -25,25 +25,6 @@ const SchengenVisa: React.FC = () => {
       </div>
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 md:py-16">
-        {/* Features Grid */}
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mb-16">
-          {[
-            { icon: 'event_available', title: 'Guaranteed Appointment', desc: 'Within 7 days of booking' },
-            { icon: 'map', title: '27 Countries', desc: 'One visa, zero borders' },
-            { icon: 'verified_user', title: 'Expert Review', desc: 'Error-free applications' },
-            { icon: 'support_agent', title: 'Dedicated Support', desc: 'Guidance at every step' },
-          ].map((item, i) => (
-            <div key={i} className="bg-white p-6 rounded-2xl border border-slate-100 card-shadow flex items-start gap-4">
-              <div className="p-3 bg-primary/10 rounded-xl text-primary shrink-0">
-                <span className="material-symbols-outlined text-2xl">{item.icon}</span>
-              </div>
-              <div>
-                <h3 className="font-bold text-slate-900 mb-1 font-display">{item.title}</h3>
-                <p className="text-sm text-slate-500">{item.desc}</p>
-              </div>
-            </div>
-          ))}
-        </div>
 
         {/* Main Content Area - Centered */}
         <div className="max-w-5xl mx-auto space-y-12 mb-20">
@@ -64,7 +45,7 @@ const SchengenVisa: React.FC = () => {
                   </div>
                 </div>
                 <ul className="space-y-3 mb-6">
-                  {['Guaranteed appointment booking', 'Slot monitoring & alerts', 'Basic document checklist'].map((item, i) => (
+                  {['Guaranteed appointment booking within a week',].map((item, i) => (
                     <li key={i} className="flex items-start gap-3 text-sm text-slate-600">
                       <span className="material-symbols-outlined text-primary text-[18px] shrink-0">check_circle</span>
                       {item}
@@ -85,11 +66,8 @@ const SchengenVisa: React.FC = () => {
                   </div>
                 </div>
                 <ul className="space-y-3 mb-6">
-                  <li className="flex items-start gap-3 text-sm text-slate-600">
-                    <span className="material-symbols-outlined text-primary text-[18px] shrink-0">check_circle</span>
-                    <span>Everything in <span className="font-semibold">Option 1</span></span>
-                  </li>
-                  {['Detailed application form filling', 'Personal cover letter drafting', 'Travel itinerary creation', 'Flight & Hotel dummy bookings'].map((item, i) => (
+
+                  {['Detailed application form filling', 'Personal cover letter drafting', 'Travel itinerary creation'].map((item, i) => (
                     <li key={i} className="flex items-start gap-3 text-sm text-slate-600">
                       <span className="material-symbols-outlined text-primary text-[18px] shrink-0">check_circle</span>
                       {item}
@@ -99,6 +77,26 @@ const SchengenVisa: React.FC = () => {
                 <Link to="/contact" className="block text-center w-full py-3 px-4 rounded-lg bg-primary text-white font-bold hover:bg-primary/90 transition-all text-sm shadow-lg shadow-primary/25">Select Full Service</Link>
               </div>
             </div>
+          </div>
+
+          {/* Features Grid */}
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mb-16">
+            {[
+              { icon: 'event_available', title: 'Guaranteed Appointment', desc: 'Within 7 days of booking' },
+              { icon: 'map', title: '27 Countries', desc: 'One visa, zero borders' },
+              { icon: 'verified_user', title: 'Expert Review', desc: 'Error-free applications' },
+              { icon: 'support_agent', title: 'Dedicated Support', desc: 'Guidance at every step' },
+            ].map((item, i) => (
+              <div key={i} className="bg-white p-6 rounded-2xl border border-slate-100 card-shadow flex items-start gap-4">
+                <div className="p-3 bg-primary/10 rounded-xl text-primary shrink-0">
+                  <span className="material-symbols-outlined text-2xl">{item.icon}</span>
+                </div>
+                <div>
+                  <h3 className="font-bold text-slate-900 mb-1 font-display">{item.title}</h3>
+                  <p className="text-sm text-slate-500">{item.desc}</p>
+                </div>
+              </div>
+            ))}
           </div>
 
           <div className="bg-red-50 rounded-2xl p-6 border border-red-100">

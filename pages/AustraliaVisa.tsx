@@ -30,7 +30,7 @@ const AustraliaVisa: React.FC = () => {
                 <span className="material-symbols-outlined text-xs sm:text-sm">public</span> Oceania
               </div>
               <h1 className="font-brand text-3xl sm:text-4xl md:text-5xl lg:text-7xl mb-2 sm:mb-4 text-white">Australia Visitor Visa</h1>
-              <p className="text-sm sm:text-base md:text-lg lg:text-xl text-slate-200 font-medium max-w-xl hidden sm:block">Visit the land down under with our seamless eVisa service. Sun, surf, and cities await.</p>
+              <p className="text-sm sm:text-base md:text-lg lg:text-xl text-slate-200 font-medium max-w-xl hidden sm:block">Complete your e-Visa application in under 24 hours — no passport submission needed. Get approval in and around 2 weeks.</p>
             </div>
             <div className="bg-white text-slate-900 px-4 sm:px-6 md:px-8 py-3 sm:py-4 md:py-6 rounded-xl sm:rounded-2xl shadow-[0_20px_50px_rgba(228,30,38,0.3)] w-full sm:w-auto sm:min-w-[200px] md:min-w-[240px] border-b-4 border-primary">
               <p className="text-[10px] sm:text-xs text-slate-400 font-bold uppercase tracking-widest mb-1">Total Package</p>

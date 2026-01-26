@@ -30,7 +30,8 @@ const CanadaVisa: React.FC = () => {
                 <span className="material-symbols-outlined text-xs sm:text-sm">public</span> North America
               </div>
               <h1 className="font-brand text-3xl sm:text-4xl md:text-5xl lg:text-7xl mb-2 sm:mb-4 text-white">Canada Visitor Visa</h1>
-              <p className="text-sm sm:text-base md:text-lg lg:text-xl text-slate-200 font-medium max-w-xl hidden sm:block">Experience the majestic landscapes of the Great White North with our hassle-free visa processing.</p>
+              <p className="text-sm sm:text-base md:text-lg lg:text-xl text-slate-200 font-medium max-w-xl hidden sm:block">Plan Your Canada Trip
+                No waiting stress! We secure your biometric appointment in and around 1 week and handle full visa preparation.</p>
             </div>
             <div className="bg-white text-slate-900 px-4 sm:px-6 md:px-8 py-3 sm:py-4 md:py-6 rounded-xl sm:rounded-2xl shadow-[0_20px_50px_rgba(228,30,38,0.3)] w-full sm:w-auto sm:min-w-[200px] md:min-w-[240px] border-b-4 border-primary">
               <p className="text-[10px] sm:text-xs text-slate-400 font-bold uppercase tracking-widest mb-1">Total Package</p>
@@ -70,11 +71,7 @@ const CanadaVisa: React.FC = () => {
                     <p className="text-slate-500 mt-2 text-base leading-relaxed">Don't wait months for an appointment. We help secure the earliest available slots for your biometrics.</p>
                   </div>
                 </li>
-                <li className="flex items-start gap-5">
-                  <div className="bg-primary/10 p-2.5 rounded-xl mt-1">
-                    <span className="material-symbols-outlined text-primary text-2xl font-bold block">verified_user</span>
-                  </div>
-                </li>
+
               </ul>
             </div>
           </section>
