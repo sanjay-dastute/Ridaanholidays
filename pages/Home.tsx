@@ -69,7 +69,7 @@ const Home: React.FC = () => {
               className="text-white text-xl sm:text-2xl md:text-3xl lg:text-5xl font-bold uppercase tracking-wide leading-tight max-w-4xl mx-auto drop-shadow-2xl font-promo px-4 mb-3 animate-fade-in-up">
               {currentContent.title}
             </h2>
-            <p key={`desc-${currentImageIndex}`} className="text-slate-50 text-sm sm:text-base md:text-lg font-medium leading-relaxed max-w-3xl mx-auto drop-shadow-lg font-display px-4 animate-fade-in-up animation-delay-200">
+            <p key={`desc-${currentImageIndex}`} className="text-slate-50 text-base sm:text-lg md:text-xl font-medium leading-relaxed max-w-3xl mx-auto drop-shadow-lg font-display px-4 animate-fade-in-up animation-delay-200">
               {currentContent.desc}
             </p>
           </div>
