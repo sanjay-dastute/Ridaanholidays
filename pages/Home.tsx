@@ -110,7 +110,7 @@ const Home: React.FC = () => {
               <div className="p-6 flex flex-col flex-1">
                 <div className="flex justify-between items-center mb-4">
                   <h3 className="text-slate-900 text-xl font-bold font-display">Schengen Area</h3>
-                  <span className="text-primary font-black text-lg">£169</span>
+                  <span className="text-primary font-black text-lg">£69</span>
                 </div>
                 <p className="text-slate-500 text-sm mb-6 font-medium leading-relaxed font-display">Visitor visa appointments in 1 week with full application.</p>
                 <Link to="/services/schengen" className="mt-auto block text-center w-full py-3 border-2 border-primary text-primary text-xs font-black uppercase tracking-widest hover:bg-primary hover:text-white transition-all rounded">View Details</Link>
