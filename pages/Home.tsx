@@ -20,15 +20,27 @@ const HERO_IMAGES = [
 
 const HERO_CONTENT = [
   {
-    title: "Worldwide Visitor Visa Assistance",
+    title: (
+      <>
+        WORLDWIDE <span className="text-primary drop-shadow-[0_2px_2px_rgba(0,0,0,0.8)]">VISITOR VISA</span> ASSISTANCE
+      </>
+    ),
     desc: "Simple, reliable support for tourist visas across the globe."
   },
   {
-    title: "We specialize exclusively in visitor visas",
+    title: (
+      <>
+        WE SPECIALIZE <span className="text-primary drop-shadow-[0_2px_2px_rgba(0,0,0,0.8)]">EXCLUSIVELY</span> IN VISITOR VISAS
+      </>
+    ),
     desc: "From USA and UK to Europe (Schengen), Canada, Australia, UAE, Singapore, Thailand, and beyond — we’ve got you covered."
   },
   {
-    title: "Complete visa file preparation & support",
+    title: (
+      <>
+        COMPLETE <span className="text-primary drop-shadow-[0_2px_2px_rgba(0,0,0,0.8)]">VISA FILE PREPARATION</span> & SUPPORT
+      </>
+    ),
     desc: "We plan your appointment according to your travel dates and will provide hands-on one to one support for the entire process."
   }
 ];
