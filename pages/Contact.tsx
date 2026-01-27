@@ -24,45 +24,28 @@ const Contact: React.FC = () => {
     setIsSubmitting(true);
     setError('');
 
-    try {
-      // Send to Make.com webhook
-      const response = await fetch('https://hook.eu1.make.com/fm0g4v6e3viiulyy64jrkbok8o97a5g5', {
-        method: 'POST',
-        headers: {
-          'Content-Type': 'application/json',
-        },
-        body: JSON.stringify({
-          fullName: formData.fullName,
-          phone: formData.phone,
-          email: formData.email,
-          destination: formData.destination,
-          message: formData.message,
-          submittedAt: new Date().toISOString(),
-          source: 'Ridaan Holidays Website'
-        }),
-      });
+    // Formatted message for WhatsApp
+    const message = `New Website Enquiry \n\n Name: ${formData.fullName}\n Phone: ${formData.phone}\n Email: ${formData.email}\n Destination: ${formData.destination}\n Message: ${formData.message}`;
 
-      if (response.ok) {
-        setSubmitted(true);
-        // Reset form after 5 seconds
-        setTimeout(() => {
-          setSubmitted(false);
-          setFormData({
-            fullName: '',
-            phone: '',
-            email: '',
-            destination: '',
-            message: ''
-          });
-        }, 5000);
-      } else {
-        throw new Error('Failed to submit');
-      }
-    } catch (err) {
-      setError('Failed to submit. Please try again or contact us directly.');
-    } finally {
-      setIsSubmitting(false);
-    }
+    // Open WhatsApp directly with proper encoding
+    window.open(`https://wa.me/447501881114?text=${encodeURIComponent(message)}`, '_blank');
+
+    setSubmitted(true);
+    setIsSubmitting(false);
+
+    // Reset form
+    setFormData({
+      fullName: '',
+      phone: '',
+      email: '',
+      destination: '',
+      message: ''
+    });
+
+    // Reset submission state after 5 seconds
+    setTimeout(() => {
+      setSubmitted(false);
+    }, 5000);
   };
 
   return (
