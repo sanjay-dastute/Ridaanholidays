@@ -22,6 +22,18 @@ const HERO_CONTENT = [
   {
     title: (
       <>
+        START YOUR <span className="text-primary drop-shadow-[0_2px_2px_rgba(0,0,0,0.8)]">JOURNEY</span> TODAY
+      </>
+    ),
+    desc: (
+      <>
+        Schengen visa <span className="text-primary">appointment</span> for only <span className="text-primary">£69</span> , available in <span className="text-primary">one week</span>.
+      </>
+    )
+  },
+  {
+    title: (
+      <>
         WORLDWIDE <span className="text-primary drop-shadow-[0_2px_2px_rgba(0,0,0,0.8)]">VISITOR VISA</span> ASSISTANCE
       </>
     ),
@@ -81,7 +93,7 @@ const Home: React.FC = () => {
               className="text-white text-xl sm:text-2xl md:text-3xl lg:text-5xl font-bold uppercase tracking-wide leading-tight max-w-4xl mx-auto drop-shadow-2xl font-promo px-4 mb-3 animate-fade-in-up">
               {currentContent.title}
             </h2>
-            <p key={`desc-${currentImageIndex}`} className="text-slate-50 text-lg sm:text-xl md:text-2xl font-medium leading-relaxed max-w-4xl mx-auto drop-shadow-lg font-display px-4 animate-fade-in-up animation-delay-200">
+            <p key={`desc-${currentImageIndex}`} className="text-slate-50 text-lg sm:text-xl md:text-2xl font-bold leading-relaxed max-w-4xl mx-auto drop-shadow-lg font-promo px-4 animate-fade-in-up animation-delay-200">
               {currentContent.desc}
             </p>
           </div>
