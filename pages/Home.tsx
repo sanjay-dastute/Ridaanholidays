@@ -2,18 +2,13 @@ import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 
 const HERO_IMAGES = [
-  "/images/1094079.jpg", // High-res landscape
-  "/images/Canada.jpg", // Canada
+
+  "/images/Piha beach.jpg", // Canada
   "/images/banff.png", // Banff National Park, Canada
   "/images/zurich.webp", // Paris, France
-  "/images/Paris.jpg", // Paris, France
-  "/images/Australia 1.jpg", // Australia
-  "/images/Singapore.jpg", // Singapore
-  "/images/Thailand.jpg", // Thailand
-  "/images/scottish-highlands.png", // Scottish Highlands, UK
+  "/images/paris tower.jpg", // Paris, France
+  "/images/Australia.jpg", // Australia
   "/images/santorini-blue-domes.jpeg", // Santorini, Greece
-  "/images/UAE.jpg", // United Arab Emirates
-  "/images/stonehenge.png", // Stonehenge, UK
 
 ];
 
