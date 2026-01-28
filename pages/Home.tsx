@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 
 const HERO_IMAGES = [
 
-  "/images/Piha beach.jpg", // Canada
+  "/images/1.jpg", // Canada
   "/images/banff.png", // Banff National Park, Canada
   "/images/zurich.webp", // Paris, France
   "/images/paris tower.jpg", // Paris, France
