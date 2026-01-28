@@ -104,10 +104,10 @@ const Home: React.FC = () => {
       <div className="relative w-full bg-white py-12 sm:py-16 md:py-24 border-b border-slate-100" id="why-us">
         <div className="w-full max-w-7xl mx-auto px-4 sm:px-6 md:px-10">
           <div className="text-center">
-            <h2 className="text-slate-900 text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-brand mb-4 sm:mb-6">Why Choose Ridaan Holidays?</h2>
-            <div className="w-16 sm:w-24 h-1.5 bg-primary mx-auto mb-6 sm:mb-10"></div>
-            <h3 className="text-primary text-lg sm:text-xl md:text-2xl font-bold mb-4 sm:mb-6 uppercase tracking-tight font-display">Worldwide Visitor Visa Services</h3>
-            <p className="text-slate-600 max-w-4xl mx-auto text-sm sm:text-base md:text-lg leading-relaxed font-medium font-display px-2">
+            <h2 className="text-slate-900 text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-extrabold font-promo mb-4 sm:mb-6 uppercase tracking-tight">Why Choose Ridaan Holidays?</h2>
+            <div className="w-16 sm:w-24 h-2 bg-primary mx-auto mb-6 sm:mb-10"></div>
+            <h3 className="text-primary text-xl sm:text-2xl md:text-3xl font-extrabold mb-4 sm:mb-6 uppercase tracking-tight font-promo">Worldwide Visitor Visa Services</h3>
+            <p className="text-slate-700 max-w-5xl mx-auto text-base sm:text-lg md:text-xl leading-relaxed font-bold font-promo px-2">
               Dreaming of travelling abroad? 🌍 <br></br> We specialize exclusively in visitor visas.
               We make visitor visas simple and stress-free.
               From USA and UK to Europe (Schengen), Canada, Australia, UAE, Singapore, Thailand, and beyond — we’ve got you covered.           </p>
@@ -119,9 +119,9 @@ const Home: React.FC = () => {
       <div className="relative w-full py-24 bg-background-light" id="destinations">
         <div className="w-full max-w-7xl mx-auto px-4 md:px-10">
           <div className="mb-16 text-center md:text-left">
-            <h2 className="text-slate-900 text-4xl md:text-5xl font-brand leading-tight">Visitor Visas We Offer Worldwide</h2>
-            <div className="w-24 h-1.5 bg-primary mt-6 mb-10 mx-auto md:mx-0"></div>
-            <p className="text-slate-700 text-xl leading-relaxed font-display">
+            <h2 className="text-slate-900 text-4xl md:text-6xl font-extrabold font-promo leading-tight uppercase tracking-tight">Visitor Visas We Offer Worldwide</h2>
+            <div className="w-24 h-2 bg-primary mt-6 mb-10 mx-auto md:mx-0"></div>
+            <p className="text-slate-700 text-xl md:text-2xl leading-relaxed font-bold font-promo max-w-4xl">
               We handle complete paperwork and prepare your file.
               We plan your appointment according to your travel dates and will provide hands-on one to one support for the entire process
             </p>
@@ -136,10 +136,10 @@ const Home: React.FC = () => {
               </div>
               <div className="p-6 flex flex-col flex-1">
                 <div className="flex justify-between items-center mb-4">
-                  <h3 className="text-slate-900 text-xl font-bold font-display">Canada</h3>
-                  <span className="text-primary font-black text-lg">£350</span>
+                  <h3 className="text-slate-900 text-2xl font-extrabold font-promo uppercase tracking-tight">Canada</h3>
+                  <span className="text-primary font-black text-xl font-promo">£350</span>
                 </div>
-                <p className="text-slate-500 text-sm mb-6 font-medium leading-relaxed font-display">Complete visitor visa support for the Great White North.</p>
+                <p className="text-slate-500 text-base mb-6 font-bold leading-relaxed font-promo">Complete visitor visa support for the Great White North.</p>
                 <Link to="/services/canada" className="mt-auto block text-center w-full py-3 border-2 border-primary text-primary text-xs font-black uppercase tracking-widest hover:bg-primary hover:text-white transition-all rounded">View Details</Link>
               </div>
             </div>
@@ -152,10 +152,10 @@ const Home: React.FC = () => {
               </div>
               <div className="p-6 flex flex-col flex-1">
                 <div className="flex justify-between items-center mb-4">
-                  <h3 className="text-slate-900 text-xl font-bold font-display">Schengen Area</h3>
-                  <span className="text-primary font-black text-lg">£69</span>
+                  <h3 className="text-slate-900 text-2xl font-extrabold font-promo uppercase tracking-tight">Schengen Area</h3>
+                  <span className="text-primary font-black text-xl font-promo">£69</span>
                 </div>
-                <p className="text-slate-500 text-sm mb-6 font-medium leading-relaxed font-display">Visitor visa appointments in 1 week with full application.</p>
+                <p className="text-slate-500 text-base mb-6 font-bold leading-relaxed font-promo">Visitor visa appointments in 1 week with full application.</p>
                 <Link to="/services/schengen" className="mt-auto block text-center w-full py-3 border-2 border-primary text-primary text-xs font-black uppercase tracking-widest hover:bg-primary hover:text-white transition-all rounded">View Details</Link>
               </div>
             </div>
@@ -168,10 +168,10 @@ const Home: React.FC = () => {
               </div>
               <div className="p-6 flex flex-col flex-1">
                 <div className="flex justify-between items-center mb-4">
-                  <h3 className="text-slate-900 text-xl font-bold font-display">United Kingdom</h3>
-                  <span className="text-primary font-black text-lg">£270</span>
+                  <h3 className="text-slate-900 text-2xl font-extrabold font-promo uppercase tracking-tight">United Kingdom</h3>
+                  <span className="text-primary font-black text-xl font-promo">£270</span>
                 </div>
-                <p className="text-slate-500 text-sm mb-6 font-medium leading-relaxed font-display">UK-based support and full application guidance.</p>
+                <p className="text-slate-500 text-base mb-6 font-bold leading-relaxed font-promo">UK-based support and full application guidance.</p>
                 <Link to="/services/uk" className="mt-auto block text-center w-full py-3 border-2 border-primary text-primary text-xs font-black uppercase tracking-widest hover:bg-primary hover:text-white transition-all rounded">View Details</Link>
               </div>
             </div>
@@ -184,10 +184,10 @@ const Home: React.FC = () => {
               </div>
               <div className="p-6 flex flex-col flex-1">
                 <div className="flex justify-between items-center mb-4">
-                  <h3 className="text-slate-900 text-xl font-bold font-display">USA</h3>
-                  <span className="text-primary font-black text-lg">£350</span>
+                  <h3 className="text-slate-900 text-2xl font-extrabold font-promo uppercase tracking-tight">USA</h3>
+                  <span className="text-primary font-black text-xl font-promo">£350</span>
                 </div>
-                <p className="text-slate-500 text-sm mb-6 font-medium leading-relaxed font-display">Comprehensive interview preparation for USA visas.</p>
+                <p className="text-slate-500 text-base mb-6 font-bold leading-relaxed font-promo">Comprehensive interview preparation for USA visas.</p>
                 <Link to="/services/usa" className="mt-auto block text-center w-full py-3 border-2 border-primary text-primary text-xs font-black uppercase tracking-widest hover:bg-primary hover:text-white transition-all rounded">View Details</Link>
               </div>
             </div>
@@ -200,10 +200,10 @@ const Home: React.FC = () => {
               </div>
               <div className="p-6 flex flex-col flex-1">
                 <div className="flex justify-between items-center mb-4">
-                  <h3 className="text-slate-900 text-xl font-bold font-display">Australia</h3>
-                  <span className="text-primary font-black text-lg">£250</span>
+                  <h3 className="text-slate-900 text-2xl font-extrabold font-promo uppercase tracking-tight">Australia</h3>
+                  <span className="text-primary font-black text-xl font-promo">£250</span>
                 </div>
-                <p className="text-slate-500 text-sm mb-6 font-medium leading-relaxed font-display">Explore the outback with simple digital visa processing.</p>
+                <p className="text-slate-500 text-base mb-6 font-bold leading-relaxed font-promo">Explore the outback with simple digital visa processing.</p>
                 <Link to="/services/australia" className="mt-auto block text-center w-full py-3 border-2 border-primary text-primary text-xs font-black uppercase tracking-widest hover:bg-primary hover:text-white transition-all rounded">View Details</Link>
               </div>
             </div>
@@ -216,10 +216,10 @@ const Home: React.FC = () => {
               </div>
               <div className="p-6 flex flex-col flex-1">
                 <div className="flex justify-between items-center mb-4">
-                  <h3 className="text-slate-900 text-xl font-bold font-display">New Zealand</h3>
-                  <span className="text-primary font-black text-lg">£250</span>
+                  <h3 className="text-slate-900 text-2xl font-extrabold font-promo uppercase tracking-tight">New Zealand</h3>
+                  <span className="text-primary font-black text-xl font-promo">£250</span>
                 </div>
-                <p className="text-slate-500 text-sm mb-6 font-medium leading-relaxed font-display">Fully online eVisa process. No passport submission.</p>
+                <p className="text-slate-500 text-base mb-6 font-bold leading-relaxed font-promo">Fully online eVisa process. No passport submission.</p>
                 <Link to="/services/new-zealand" className="mt-auto block text-center w-full py-3 border-2 border-primary text-primary text-xs font-black uppercase tracking-widest hover:bg-primary hover:text-white transition-all rounded">View Details</Link>
               </div>
             </div>
@@ -231,9 +231,9 @@ const Home: React.FC = () => {
       {/* CTA Section */}
       <div className="w-full py-32 bg-primary-light">
         <div className="w-full max-w-4xl mx-auto px-4 text-center">
-          <div className="w-24 h-1.5 bg-primary mx-auto mb-12"></div>
-          <h2 className="text-4xl md:text-6xl font-brand mb-10 text-slate-900">Ready to travel the world?</h2>
-          <p className="text-slate-600 mb-16 max-w-2xl mx-auto text-xl leading-relaxed font-medium font-display">
+          <div className="w-24 h-2 bg-primary mx-auto mb-12"></div>
+          <h2 className="text-4xl md:text-6xl font-extrabold font-promo mb-10 text-slate-900 uppercase tracking-tight">Ready to travel the world?</h2>
+          <p className="text-slate-700 mb-16 max-w-3xl mx-auto text-xl md:text-2xl leading-relaxed font-bold font-promo">
             We handle the complete paperwork and prepare your file.
             We plan your appointment according to your travel dates and will provide hands on one to one support for the entire process.
             <br></br>
