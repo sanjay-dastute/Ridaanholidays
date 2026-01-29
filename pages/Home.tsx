@@ -74,7 +74,7 @@ const Home: React.FC = () => {
         {HERO_IMAGES.map((img, index) => (
           <div
             key={index}
-            className={`absolute inset-0 bg-cover bg-center transition-all duration-[2000ms] ease-in-out ${index === currentImageIndex ? 'opacity-100 scale-105' : 'opacity-0 scale-100'
+            className={`absolute inset-0 bg-cover bg-center transition-all duration-[5000ms] ease-in-out ${index === currentImageIndex ? 'opacity-100 scale-105' : 'opacity-0 scale-100'
               }`}
             style={{
               backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.45) 0%, rgba(0, 0, 0, 0.65) 100%), url("${img}")`,
@@ -100,13 +100,14 @@ const Home: React.FC = () => {
       <div className="relative w-full bg-white py-12 sm:py-16 md:py-24 border-b border-slate-100" id="why-us">
         <div className="w-full max-w-7xl mx-auto px-4 sm:px-6 md:px-10">
           <div className="text-center">
-            <h2 className="text-slate-900 text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-extrabold font-promo mb-4 sm:mb-6 uppercase tracking-tight">Why Choose Ridaan Holidays?</h2>
+            <h3 className="text-slate-900 text-2xl font-extrabold font-promo uppercase tracking-tight">Why Choose Ridaan Holidays?</h3>
+
             <div className="w-16 sm:w-24 h-2 bg-primary mx-auto mb-6 sm:mb-10"></div>
-            <h3 className="text-primary text-xl sm:text-2xl md:text-3xl font-extrabold mb-4 sm:mb-6 uppercase tracking-tight font-promo">Worldwide Visitor Visa Services</h3>
+            <h3 className="text-primary text-xl sm:text-1xl md:text-2xl font-extrabold mb-4 sm:mb-6 uppercase tracking-tight font-promo">Worldwide Visitor Visa Services</h3>
             <p className="text-slate-700 max-w-5xl mx-auto text-base sm:text-lg md:text-xl leading-relaxed font-bold font-promo px-2">
               Dreaming of travelling abroad? 🌍 <br></br> We specialize exclusively in visitor visas.
-              We make visitor visas simple and stress-free.
-              From USA and UK to Europe (Schengen), Canada, Australia, UAE, Singapore, Thailand, and beyond — we’ve got you covered.           </p>
+              We make visitor visas simple and stress-free.<br></br>
+              From UK and USA to Europe (Schengen), Canada, Australia, UAE, Singapore, Thailand, and beyond — we’ve got you covered.           </p>
           </div>
         </div>
       </div>
@@ -115,7 +116,8 @@ const Home: React.FC = () => {
       <div className="relative w-full py-24 bg-background-light" id="destinations">
         <div className="w-full max-w-7xl mx-auto px-4 md:px-10">
           <div className="mb-16 text-center md:text-left">
-            <h2 className="text-slate-900 text-4xl md:text-6xl font-extrabold font-promo leading-tight uppercase tracking-tight">Visitor Visas We Offer Worldwide</h2>
+            <h2 className="text-slate-900 text-4xl md:text-6xl font-extrabold font-promo leading-tight uppercase tracking-tight"></h2>
+            <h3 className="text-slate-900 text-2xl font-extrabold font-promo uppercase tracking-tight">Visitor Visas We Offer Worldwide</h3>
             <div className="w-24 h-2 bg-primary mt-6 mb-10 mx-auto md:mx-0"></div>
             <p className="text-slate-700 text-xl md:text-2xl leading-relaxed font-bold font-promo max-w-4xl">
               We handle complete paperwork and prepare your file.
