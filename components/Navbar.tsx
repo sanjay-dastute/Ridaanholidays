@@ -23,9 +23,7 @@ const Navbar: React.FC = () => {
         <header className="flex items-center justify-between h-20">
           {/* Logo */}
           <Link to="/" className="flex items-center gap-3 group">
-            <div className="bg-primary px-3 py-1.5 transform -skew-x-12 group-hover:scale-105 transition-transform">
-              <span className="font-brand text-white text-xl tracking-wider">RIDAAN HOLIDAYS</span>
-            </div>
+            <img src="/images/logo-brand.png" alt="Ridaan Holidays" className="h-14 w-auto group-hover:scale-105 transition-transform" />
           </Link>
 
           {/* Desktop Nav */}

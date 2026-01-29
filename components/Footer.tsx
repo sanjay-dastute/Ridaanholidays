@@ -8,9 +8,7 @@ const Footer: React.FC = () => {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-12">
           <div className="col-span-1 md:col-span-1">
             <div className="flex items-center gap-2 mb-6">
-              <div className="bg-primary px-3 py-1 transform -skew-x-12">
-                <span className="font-brand text-white text-lg tracking-wider">RIDAAN HOLIDAYS</span>
-              </div>
+              <img src="/images/logo-brand.png" alt="Ridaan Holidays" className="h-12 w-auto" />
             </div>
             <p className="text-sm text-slate-400 leading-relaxed">
               Your trusted partner for global visa assistance and luxury travel planning. Experience the world without limits.
