@@ -27,7 +27,6 @@ const NewZealandVisa: React.FC = () => {
           <div className="flex flex-col md:flex-row md:items-end justify-between gap-4 sm:gap-6 md:gap-8">
             <div className="max-w-2xl">
               <div className="inline-flex items-center gap-2 bg-primary px-3 sm:px-4 py-1 sm:py-1.5 rounded-full text-[10px] sm:text-xs font-bold uppercase tracking-widest mb-3 sm:mb-6 text-white shadow-lg">
-                <span className="material-symbols-outlined text-xs sm:text-sm">public</span> Oceania
               </div>
               <h1 className="font-brand text-3xl sm:text-4xl md:text-5xl lg:text-7xl mb-2 sm:mb-4 text-white">New Zealand Visitor Visa</h1>
               <p className="text-sm sm:text-base md:text-lg lg:text-xl text-slate-200 font-medium max-w-xl hidden sm:block">Complete your e-Visa application in under 24 hours — no passport submission needed. Get approval in and around 2 weeks.</p>

@@ -117,7 +117,7 @@ const Home: React.FC = () => {
         <div className="w-full max-w-7xl mx-auto px-4 md:px-10">
           <div className="mb-16 text-center md:text-left">
             <h2 className="text-slate-900 text-4xl md:text-6xl font-extrabold font-promo leading-tight uppercase tracking-tight"></h2>
-            <h3 className="text-slate-900 text-2xl font-extrabold font-promo uppercase tracking-tight">Visitor Visas We Offer Worldwide</h3>
+            <h3 className="text-slate-900 text-2xl font-extrabold font-promo uppercase tracking-tight">Visitor Visa We Offer Worldwide</h3>
             <div className="w-24 h-2 bg-primary mt-6 mb-10 mx-auto md:mx-0"></div>
             <p className="text-slate-700 text-xl md:text-2xl leading-relaxed font-bold font-promo max-w-4xl">
               We handle complete paperwork and prepare your file.
@@ -150,7 +150,7 @@ const Home: React.FC = () => {
               </div>
               <div className="p-6 flex flex-col flex-1">
                 <div className="flex justify-between items-center mb-4">
-                  <h3 className="text-slate-900 text-2xl font-extrabold font-promo uppercase tracking-tight">Schengen Area</h3>
+                  <h3 className="text-slate-900 text-2xl font-extrabold font-promo uppercase tracking-tight">Schengen Visa</h3>
                   <span className="text-primary font-black text-xl font-promo">£69</span>
                 </div>
                 <p className="text-slate-500 text-base mb-6 font-bold leading-relaxed font-promo">Visitor visa appointments in 1 week with full application.</p>
@@ -201,7 +201,7 @@ const Home: React.FC = () => {
                   <h3 className="text-slate-900 text-2xl font-extrabold font-promo uppercase tracking-tight">Australia</h3>
                   <span className="text-primary font-black text-xl font-promo">£250</span>
                 </div>
-                <p className="text-slate-500 text-base mb-6 font-bold leading-relaxed font-promo">Explore the outback with simple digital visa processing.</p>
+                <p className="text-slate-500 text-base mb-6 font-bold leading-relaxed font-promo">Fully online eVisa process. No passport submission.</p>
                 <Link to="/services/australia" className="mt-auto block text-center w-full py-3 border-2 border-primary text-primary text-xs font-black uppercase tracking-widest hover:bg-primary hover:text-white transition-all rounded">View Details</Link>
               </div>
             </div>
