@@ -103,11 +103,11 @@ const Home: React.FC = () => {
             <h3 className="text-slate-900 text-2xl font-extrabold font-promo uppercase tracking-tight">Why Choose Ridaan Holidays?</h3>
 
             <div className="w-16 sm:w-24 h-2 bg-primary mx-auto mb-6 sm:mb-10"></div>
-            <h3 className="text-primary text-xl sm:text-1xl md:text-2xl font-extrabold mb-4 sm:mb-6 uppercase tracking-tight font-promo">Worldwide Visitor Visa Services</h3>
+            <h3 className="text-primary text-xl sm:text-1xl md:text-2xl font-extrabold mb-4 sm:mb-6 uppercase tracking-tight font-promo">Worldwide <span className="text-green-800">Visitor</span> Visa Services</h3>
             <p className="text-slate-700 max-w-5xl mx-auto text-base sm:text-lg md:text-xl leading-relaxed font-bold font-promo px-2">
-              Dreaming of travelling abroad? 🌍 <br></br> We specialize exclusively in visitor visas.
-              We make visitor visas simple and stress-free.<br></br>
-              From UK and USA to Europe (Schengen), Canada, Australia, UAE, Singapore, Thailand, and beyond — we’ve got you covered.           </p>
+              Dreaming of travelling abroad? 🌍 <br></br> We specialize exclusively in <span className="text-green-800">visitor</span> visas.
+              We make <span className="text-green-800">visitor</span> visas simple and stress-free.<br></br>
+              From <span className="text-green-800">UK</span> to <span className="text-green-800">USA</span>, Europe (Schengen), Canada, <span className="text-green-800">Australia</span>, UAE, Singapore, Thailand, and beyond — we’ve got you covered.           </p>
           </div>
         </div>
       </div>
